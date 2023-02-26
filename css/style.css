@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+li p {
+    padding: 2px 16px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#leftColumn {
+    display: inline;
+    width: 150px;
+}
+
+#rightColumn{
+    display: inline;
+    Width: 300px;
+}
